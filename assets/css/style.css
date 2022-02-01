@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #204059;
+    background-color: #ffd460;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .section-title {
+    font-size: 48px;
+    color: #024e76;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+  }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .intro img {
+    flex: 0;
+    float: left;
+  }
+
+  .intro p {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    width: 285px;
+    height: 285px;
+    background-color: #204059;
+    color:#ffd460;
+    border: #ea5455 solid 2px;
+    line-height: 1.7;
+    width: 90%;
+    font-size: 23px;
+    margin: 15px auto;
+    text-align: center;
+    flex: 2 30%;
+  }
+
+  .pfp {
+    width: 285px;
+    height: 285px;
+  }
+
+  /* PORTFOLIO SECTION */
+  
+  .portfolio-main {
+    border: #ea5455 solid 2px;
+    height: 450px;
+    width: 600px;
+    float: left;
+  }
+
+  .portfolio-secondary {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    height: 225px;
+    width: 300px;
+    float: left;  
+  }
+
+  .small-portfolio {
+    display: inline;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
+  
+  section {
+    padding: 60px;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  header {
+    padding: 15px 25px;
+    background-color: #204059;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:#ea5455 solid 2px;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #ffd460;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #ffd460;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+  
+  /* CONTACT INFO SECTION */
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 23px;
+    margin: 15px auto;
+    text-align: center;
+    flex: 2 30%;
+  }
+  
+  .mail-svg {
+    display: flex;
+    height: 185px;
+    padding-left: 35px;
+  }
+  
+  /* STYLE ALL SECTION TAGS */
+  section {
+    padding: 60px;
+  }
+
+  } 
+
+  /* SECTION TITLE STYLES START */
+  .section-title {
+    font-size: 55px;
+    border-top: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+  /* SECTION TITLE STYLES END */
+  
+  
+  
+  
+  /* UTILITIES */
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
+
+  .vertical {
+    writing-mode: vertical-lr;
+    border-right: 6px solid #ea5455
+    text-orientation: mixed;
+    text-align: left;
+    float: left;
+  }
+
+  .clear {
+    float: left;
+    clear: both;
+  }
+
+
+  /* MEDIA QUERY FOR SMALLED DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+     /* this will be applied on any screen smaller than 980px */
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+      /* this will be applied on any screen between 768 px and 575 px */
+
+  }
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px){
+     /* this will be applied on any screen smaller than 575px; */
+    
+
+  
